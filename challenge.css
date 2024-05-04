@@ -1,0 +1,54 @@
+.Second{
+    background-image: url(challenge1.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Second_d{
+    margin-top: 100px;
+    margin-left: 75px;
+    margin-right: 80px;
+    background-color: rgba(245, 245, 245, 0.449);
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+.Second_d h1{
+    Padding-top: 20px;
+    margin-bottom: 10px;
+}
+.Second2 .Second_d h1{
+    padding-top: 0px;
+}
+.Second_d p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.Second_d a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(241, 21, 5);
+    border-style: none;
+    border-radius: 15px;
+    padding: 7px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.Second_d a:hover{
+    background-color: rgb(20, 20, 116);
+}
+
+.Second2{
+    background-image: url(Atreus.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: end;
+}
+.Second2 .Second_d a{
+    background-color: rgb(20, 20, 116);
+}
+.Second2 .Second_d a:hover{
+    background-color: rgb(241, 21, 5);
+}
