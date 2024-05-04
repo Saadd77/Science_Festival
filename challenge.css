@@ -1,54 +1,69 @@
-.Second{
-    background-image: url(challenge1.jpg);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.Second_d{
-    margin-top: 100px;
-    margin-left: 10px;
-    margin-right: 70px;
-    background-color: rgba(245, 245, 245, 0.449);
-    border-radius: 10px;
-    height: 500px;
-    width: 500px;
-    text-align: center;
-}
-.Second_d h1{
-    Padding-top: 20px;
-    margin-bottom: 10px;
-}
-.Second2 .Second_d h1{
-    padding-top: 0px;
-}
-.Second_d p{
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-    margin-bottom: 35px;
-}
-.Second_d a{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
-    color: white;
-    background-color: rgb(241, 21, 5);
-    border-style: none;
-    border-radius: 15px;
-    padding: 7px 12px;
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
 }
-.Second_d a:hover{
-    background-color: rgb(20, 20, 116);
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    background: #7091e6;
+    overflow-x: hidden;
+}
+section {
+    min-height: 70vh;
+    padding: 0.5rem;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 10rem;
 }
 
-.Second2{
-    background-image: url(Atreus.jpg);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: end;
+.home div{
+    border-radius: 0.65rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.685);
 }
-.Second2 .Second_d a{
-    background-color: rgb(20, 20, 116);
+.home div h1{
+    font-size: 5rem;
+    Padding-top: 1.2rem;
+    margin-bottom: 0.6rem;
+    color: #190097;
 }
-.Second2 .Second_d a:hover{
-    background-color: rgb(241, 21, 5);
+.home div h1 span {
+    color: #190097;
 }
+.home div p {
+    font-size: 2rem;
+    color: #190097;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+@media(max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:991px) {
+    body {
+        padding: 0;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
