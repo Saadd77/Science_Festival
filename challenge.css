@@ -17,14 +17,14 @@ body {
     overflow-x: hidden;
 }
 section {
-    min-height: 70vh;
+    min-height: 100vh;
     padding: 0.5rem;
 }
 .home {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding: 0 10rem;
+    padding: 0 6rem;
 }
 
 .home div{
