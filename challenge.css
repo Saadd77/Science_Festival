@@ -17,35 +17,35 @@ body {
     overflow-x: hidden;
 }
 section {
-    min-height: 100vh;
+    min-height: 75vh;
     padding: 0.5rem;
 }
-.home {
+.Chal {
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding: 0 6rem;
 }
 
-.home div{
+.Chal div{
     border-radius: 0.65rem;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.685);
+    padding-bottom: 2rem;
 }
-.home div h1{
+.Chal div h1{
     font-size: 5rem;
     Padding-top: 1.2rem;
     margin-bottom: 0.6rem;
     color: #190097;
 }
-.home div h1 span {
+.Chal div h1 span {
     color: #190097;
 }
-.home div p {
+.Chal div p {
     font-size: 2rem;
     color: #190097;
-    padding: 1.5rem 1.5rem;
-    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
 }
 
 
